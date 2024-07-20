@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+# CodePen Project with CodeMirror
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is an interactive code editor inspired by CodePen, built using HTML, CSS, JavaScript, React, and CodeMirror. The application provides a real-time coding environment with syntax highlighting and code editing capabilities.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Real-time Code Editing:** Write and edit code with immediate visual feedback.
+- **Syntax Highlighting:** CodeMirror integration for syntax highlighting in multiple languages.
+- **Responsive Design:** A user-friendly interface that works across various devices and screen sizes.
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **HTML:** Structure of the application
+- **CSS:** Styling and layout
+- **JavaScript:** Logic and functionality
+- **React:** Frontend framework
+- **CodeMirror:** Code editor component for syntax highlighting
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+1. **Clone the repository:**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    ```bash
+    git clone https://github.com/stash-724/codepen-codemirror.git
+    cd codepen-codemirror
+    ```
 
-### `npm run build`
+2. **Install dependencies:**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    ```bash
+    npm install
+    ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. **Start the development server:**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    ```bash
+    npm start
+    ```
 
-### `npm run eject`
+4. **Open your browser and navigate to:**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    ```
+    http://localhost:3000
+    ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    to see the application in action.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Usage
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Writing Code:** Use the CodeMirror editor to write HTML, CSS, and JavaScript code.
+- **Syntax Highlighting:** The editor automatically highlights syntax based on the code language.
+- **Real-time Preview:** See the results of your code changes instantly in the preview area.
 
-## Learn More
+## Project Structure
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- `src/` - Contains the source code for the application
+  - `components/` - Reusable React components
+  - `App.js` - Main application component
+  - `index.js` - Entry point of the application
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contributing
 
-### Code Splitting
+Contributions are welcome! Please feel free to submit a Pull Request with any improvements or bug fixes.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## License
 
-### Analyzing the Bundle Size
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Contact
 
-### Making a Progressive Web App
+For any inquiries or feedback, please contact:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **Name:** Ankush Soni
+- **Email:** 1ankushsoni@gmail.com
+- **LinkedIn:** [Ankush Soni](https://www.linkedin.com/in/ankush-soni/)
+- **Portfolio:** [Ankush Soni](https://ankushsoni.netlify.app)
